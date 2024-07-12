@@ -1,0 +1,26 @@
+.container {
+    padding-left: 25rem;
+    min-width: 100vw;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container .chat-body{
+    max-height: 50vh;
+}
+.container .chat-body::-webkit-scrollbar{
+    background-color: transparent;
+    width: .3rem;
+}
+.container .chat-body::-webkit-scrollbar-thumb{
+    background-color: rgb(53, 74, 99);
+    border-radius: '2rem';
+}
+.noScroll-view::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width: 950px) {
+    .container {
+        padding-left: 3rem;
+    }
+}

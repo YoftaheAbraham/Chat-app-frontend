@@ -1,0 +1,11 @@
+.chat-main-container{
+    overflow: hidden;
+}
+.chat-main-container::-webkit-scrollbar{
+    display: none;
+    background-color: rgba(236, 32, 32, 0.068);
+}
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(6, 188, 212);
+}
